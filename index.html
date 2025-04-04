@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Delicioso - [Nome do Seu Restaurante]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="restaurant-name">Cantina do Paulinho</h1>
+            <p class="tagline">O sabor que você não esquece!</p>
+        </div>
+    </header>
+
+    <main class="container menu-container">
+
+        <section id="info-section" class="info-box">
+            <h2>Como Pedir:</h2>
+            <p>1. Escolha seus pratos e ajuste a quantidade.</p>
+            <p>2. Adicione observações se precisar (Ex: sem cebola).</p>
+            <p>3. Informe seu nome e, se desejar, agende um horário para entrega/retirada.</p>
+            <p>4. Clique em "Revisar e Enviar Pedido via WhatsApp".</p>
+            <p>5. Você será direcionado ao WhatsApp com a mensagem pronta. Basta clicar em "Enviar"!</p>
+        </section>
+
+        <!-- ========================
+             CATEGORIAS E ITENS (mesma estrutura de antes)
+             ======================== -->
+        <section id="entradas" class="menu-category">
+            <h2 class="category-title">Entradas Fresquinhas</h2>
+            <!-- Itens de entrada como definidos anteriormente -->
+            <article class="menu-item" data-item-id="ent001" data-item-name="Bruschetta Pomodoro" data-item-price="28.50">
+                <div class="item-info"> <h3 class="item-name">Bruschetta Pomodoro</h3> <p class="item-description">Fatias de pão italiano artesanal levemente tostadas, cobertas com tomates frescos picados, manjericão, alho e um fio de azeite balsâmico.</p> <p class="item-price">R$ 28,50</p> </div>
+                <div class="item-controls"> <label for="qty-ent001" class="sr-only">Quantidade</label> <input type="number" id="qty-ent001" class="quantity-input" min="0" value="0" aria-label="Quantidade de Bruschetta Pomodoro"> <label for="obs-ent001" class="sr-only">Observações</label> <input type="text" id="obs-ent001" class="observations-input" placeholder="Observações? (Ex: sem alho)" aria-label="Observações para Bruschetta Pomodoro"> </div>
+            </article>
+            <article class="menu-item" data-item-id="ent002" data-item-name="Dadinhos de Tapioca" data-item-price="32.00">
+                <div class="item-info"> <h3 class="item-name">Dadinhos de Tapioca com Queijo Coalho</h3> <p class="item-description">Cubos crocantes de tapioca e queijo coalho douradinhos, servidos com geleia de pimenta agridoce caseira.</p> <p class="item-price">R$ 32,00</p> </div>
+                <div class="item-controls"> <label for="qty-ent002" class="sr-only">Quantidade</label> <input type="number" id="qty-ent002" class="quantity-input" min="0" value="0" aria-label="Quantidade de Dadinhos de Tapioca"> <label for="obs-ent002" class="sr-only">Observações</label> <input type="text" id="obs-ent002" class="observations-input" placeholder="Observações?" aria-label="Observações para Dadinhos de Tapioca"> </div>
+            </article>
+        </section>
+
+        <section id="principais" class="menu-category">
+            <h2 class="category-title">Pratos Principais Saborosos</h2>
+            <!-- Itens principais como definidos anteriormente -->
+             <article class="menu-item" data-item-id="prn001" data-item-name="Filé Mignon ao Molho Madeira" data-item-price="65.00">
+                <div class="item-info"> <h3 class="item-name">Filé Mignon ao Molho Madeira</h3> <p class="item-description">Medalhão de filé mignon grelhado (escolha o ponto), regado com molho madeira clássico e champignon. Acompanha arroz branco e batatas sautée.</p> <p class="item-price">R$ 65,00</p> </div>
+                <div class="item-controls"> <label for="qty-prn001" class="sr-only">Quantidade</label> <input type="number" id="qty-prn001" class="quantity-input" min="0" value="0" aria-label="Quantidade de Filé Mignon"> <label for="obs-prn001" class="sr-only">Observações</label> <input type="text" id="obs-prn001" class="observations-input" placeholder="Observações? (Ex: ponto da carne)" aria-label="Observações para Filé Mignon"> </div>
+            </article>
+             <article class="menu-item" data-item-id="prn002" data-item-name="Salmão Grelhado com Legumes" data-item-price="72.00">
+                <div class="item-info"> <h3 class="item-name">Salmão Grelhado com Crosta de Gergelim</h3> <p class="item-description">Posta de salmão fresco grelhado com uma leve crosta de gergelim, servido sobre cama de legumes da estação salteados no azeite.</p> <p class="item-price">R$ 72,00</p> </div>
+                <div class="item-controls"> <label for="qty-prn002" class="sr-only">Quantidade</label> <input type="number" id="qty-prn002" class="quantity-input" min="0" value="0" aria-label="Quantidade de Salmão Grelhado"> <label for="obs-prn002" class="sr-only">Observações</label> <input type="text" id="obs-prn002" class="observations-input" placeholder="Observações?" aria-label="Observações para Salmão Grelhado"> </div>
+            </article>
+             <article class="menu-item" data-item-id="prn003" data-item-name="Risoto de Cogumelos" data-item-price="58.00">
+                <div class="item-info"> <h3 class="item-name">Risoto Cremoso de Cogumelos Selvagens (Vegano Opcional)</h3> <p class="item-description">Arroz arbóreo cremoso cozido lentamente com um mix de cogumelos frescos (paris, shimeji, shitake) e finalizado com parmesão (ou versão vegana com queijo vegetal e azeite trufado).</p> <p class="item-price">R$ 58,00</p> </div>
+                <div class="item-controls"> <label for="qty-prn003" class="sr-only">Quantidade</label> <input type="number" id="qty-prn003" class="quantity-input" min="0" value="0" aria-label="Quantidade de Risoto de Cogumelos"> <label for="obs-prn003" class="sr-only">Observações</label> <input type="text" id="obs-prn003" class="observations-input" placeholder="Observações? (Ex: versão vegana)" aria-label="Observações para Risoto de Cogumelos"> </div>
+            </article>
+        </section>
+
+        <section id="bebidas" class="menu-category">
+             <h2 class="category-title">Bebidas Refrescantes</h2>
+             <!-- Itens de bebida como definidos anteriormente -->
+             <article class="menu-item" data-item-id="beb001" data-item-name="Água Mineral sem Gás" data-item-price="5.00">
+                 <div class="item-info"> <h3 class="item-name">Água Mineral sem Gás (500ml)</h3> <p class="item-price">R$ 5,00</p> </div>
+                 <div class="item-controls"> <label for="qty-beb001" class="sr-only">Quantidade</label> <input type="number" id="qty-beb001" class="quantity-input" min="0" value="0" aria-label="Quantidade Água sem Gás"> <label for="obs-beb001" class="sr-only">Observações</label> <input type="text" id="obs-beb001" class="observations-input" placeholder="Obs?" aria-label="Observações Água sem Gás"> </div>
+             </article>
+             <article class="menu-item" data-item-id="beb002" data-item-name="Refrigerante Lata" data-item-price="7.00">
+                 <div class="item-info"> <h3 class="item-name">Refrigerante (Lata 350ml)</h3> <p class="item-price">R$ 7,00</p> </div>
+                 <div class="item-controls"> <label for="qty-beb002" class="sr-only">Quantidade</label> <input type="number" id="qty-beb002" class="quantity-input" min="0" value="0" aria-label="Quantidade Refrigerante"> <label for="obs-beb002" class="sr-only">Observações</label> <input type="text" id="obs-beb002" class="observations-input" placeholder="Obs? (Ex: Coca, Guaraná)" aria-label="Observações Refrigerante"> </div>
+             </article>
+        </section>
+        <!-- FIM DAS CATEGORIAS E ITENS -->
+
+
+        <!-- ========================
+             SEÇÃO DO PEDIDO/FINALIZAÇÃO
+             ======================== -->
+        <section class="order-section container">
+            <h2 class="section-title">Finalize Seu Pedido</h2>
+
+            <!-- Campo Nome do Cliente -->
+            <div class="form-group">
+                 <label for="client-name-input" class="form-label">Seu Nome:</label>
+                 <input type="text" id="client-name-input" class="form-control" placeholder="Digite seu nome para identificação" required>
+                 <p id="name-error" class="error-message inline-error" style="display: none;">Por favor, informe seu nome.</p>
+            </div>
+
+            <!-- Campo Agendamento (NOVO) -->
+            <div class="form-group schedule-toggle">
+                 <input type="checkbox" id="schedule-checkbox" name="schedule-checkbox">
+                 <label for="schedule-checkbox">Agendar entrega/retirada?</label>
+            </div>
+
+            <div id="schedule-fields" class="schedule-fields-container" style="display: none;">
+                 <div class="form-group">
+                    <label for="schedule-date" class="form-label">Data:</label>
+                    <input type="date" id="schedule-date" name="schedule-date" class="form-control">
+                 </div>
+                 <div class="form-group">
+                    <label for="schedule-time" class="form-label">Horário:</label>
+                    <input type="time" id="schedule-time" name="schedule-time" class="form-control">
+                    <p class="schedule-note">(Verifique nossos horários de funcionamento)</p>
+                 </div>
+                 <p id="schedule-error" class="error-message inline-error" style="display: none;">Por favor, preencha data e horário.</p>
+            </div>
+            <!-- Fim Campo Agendamento -->
+
+
+            <!-- Resumo do Pedido -->
+            <h3 class="summary-title">Resumo do Pedido:</h3>
+            <div id="order-summary" class="order-summary-box">
+                <p>Selecione os itens acima para montar seu pedido.</p>
+            </div>
+
+            <!-- Total -->
+            <div id="total-price" class="total-price-display">
+                Total: R$ 0,00
+            </div>
+
+            <!-- Botão e Erro Geral Pedido -->
+             <p id="whatsapp-error" class="error-message" style="display: none;">Por favor, adicione pelo menos um item ao seu pedido.</p>
+            <button id="whatsapp-button" class="cta-button" type="button">
+                Revisar e Enviar Pedido via WhatsApp
+            </button>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© <span id="current-year"></span> [Nome do Seu Restaurante] - Todos os direitos reservados.</p>
+            <!-- Adicionar endereço, telefone fixo, horários de funcionamento aqui -->
+            <p>Rua Exemplo, 123 - Bairro - Cidade | Tel: (XX) 1234-5678</p>
+            <p>Horário: Ter-Dom 18:00 às 23:00</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>

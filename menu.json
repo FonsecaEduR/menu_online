@@ -1,0 +1,55 @@
+{
+    "categorias": [
+      {
+        "id": "entradas",
+        "titulo": "Entradas Fresquinhas",
+        "itens": [
+          {
+            "id": "ent001",
+            "nome": "Bruschetta Pomodoro",
+            "descricao": "Fatias de pão italiano artesanal levemente tostadas, cobertas com tomates frescos picados, manjericão, alho e um fio de azeite balsâmico.",
+            "preco": 28.50
+          },
+          {
+            "id": "ent002",
+            "nome": "Dadinhos de Tapioca com Queijo Coalho",
+            "descricao": "Cubos crocantes de tapioca e queijo coalho douradinhos, servidos com geleia de pimenta agridoce caseira.",
+            "preco": 32.00
+          }
+        ]
+      },
+      {
+        "id": "principais",
+        "titulo": "Pratos Principais Saborosos",
+        "itens": [
+          {
+            "id": "prn001",
+            "nome": "Filé Mignon ao Molho Madeira",
+            "descricao": "Medalhão de filé mignon grelhado (escolha o ponto), regado com molho madeira clássico e champignon. Acompanha arroz branco e batatas sautée.",
+            "preco": 65.00
+          },
+          {
+            "id": "prn002",
+            "nome": "Salmão Grelhado com Crosta de Gergelim",
+            "descricao": "Posta de salmão fresco grelhado com uma leve crosta de gergelim, servido sobre cama de legumes da estação salteados no azeite.",
+            "preco": 72.00
+          },
+          {
+              "id": "prn003",
+              "nome": "Risoto Cremoso de Cogumelos Selvagens (Vegano Opcional)",
+              "descricao": "Arroz arbóreo cremoso cozido lentamente com um mix de cogumelos frescos (paris, shimeji, shitake) e finalizado com parmesão (ou versão vegana com queijo vegetal e azeite trufado).",
+              "preco": 58.00
+          }
+        ]
+      },
+      {
+        "id": "bebidas",
+        "titulo": "Bebidas Refrescantes",
+        "itens": [
+            { "id": "beb001", "nome": "Água Mineral sem Gás (500ml)", "descricao": "", "preco": 5.00 },
+            { "id": "beb002", "nome": "Refrigerante (Lata 350ml)", "descricao": "Coca-Cola, Guaraná Antarctica, Fanta Laranja, Sprite", "preco": 7.00 }
+          ]
+      }
+      
+    ]
+  }
