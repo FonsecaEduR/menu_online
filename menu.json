@@ -1,55 +1,233 @@
 {
     "categorias": [
       {
-        "id": "entradas",
-        "titulo": "Entradas Fresquinhas",
+        "id": "Pratos",
+        "titulo": "Pratos principais",
         "itens": [
           {
             "id": "ent001",
-            "nome": "Bruschetta Pomodoro",
-            "descricao": "Fatias de pão italiano artesanal levemente tostadas, cobertas com tomates frescos picados, manjericão, alho e um fio de azeite balsâmico.",
-            "preco": 28.50
+            "nome": "Alcatra",
+            "descricao": "Arroz, Feijão, Alcatra, Batata Frita e Salada",
+            "preco": 24.50,
+            "imagem": ""
           },
           {
             "id": "ent002",
-            "nome": "Dadinhos de Tapioca com Queijo Coalho",
-            "descricao": "Cubos crocantes de tapioca e queijo coalho douradinhos, servidos com geleia de pimenta agridoce caseira.",
-            "preco": 32.00
+            "nome": "Parmegiana de Alcatra",
+            "descricao": "Arroz, Alcatra empanada, Molho de Tomate, Queijo, Ervilha, Batata Frita e Salada",
+            "preco": 34.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent003",
+            "nome": "Contra Filé",
+            "descricao": "Arroz, Feijão, Contra Filé, Batata Frita e Salada",
+            "preco": 22.90,
+            "imagem": ""
+          },
+          {
+            "id": "ent004",
+            "nome": "Contra Filé à Cavalo",
+            "descricao": "Arroz, Feijão, Contra Filé, Ovo, Batata Frita e Salada",
+            "preco": 24.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent005",
+            "nome": "Parmegiana de Frango",
+            "descricao": "Arroz, Frango empanado, Molho de Tomate, Queijo, Ervilha, Batata Frita e Salada",
+            "preco": 29.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent006",
+            "nome": "Filé de Frango",
+            "descricao": "Arroz, Feijão, Filé de Frango, Batata Frita e Salada",
+            "preco": 19.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent007",
+            "nome": "Frango c/ Queijo",
+            "descricao": "Arroz, Feijão, Filé de Frango, Queijo, Batata Frita e Salada",
+            "preco": 21.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent008",
+            "nome": "Strogonoff de Frango",
+            "descricao": "Arroz, Strogonoff de Frango, Batata palha e Salada",
+            "preco": 21.00,
+            "imagem": ""
+          },
+          {
+            "id": "ent009",
+            "nome": "Lombo",
+            "descricao": "Arroz, Filé de Lombo, Bata Frita e Salada",
+            "preco": 19.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent010",
+            "nome": "Bisteca",
+            "descricao": "Arroz, Feijão, Bisteca Grelhada, Bata Frita e Salada",
+            "preco": 19.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent011",
+            "nome": "Omelete da Casa",
+            "descricao": "Arroz, Feijão, Omelete (3 ovos, queijo, tomate, cebola e orégano), Bata Frita e Salada",
+            "preco": 21.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent012",
+            "nome": "Vegetariano",
+            "descricao": "Arroz, Feijão, 2 ovos, Bata Frita e Salada",
+            "preco": 19.50,
+            "imagem": ""
+          },
+          {
+            "id": "ent013",
+            "nome": "Mix de Salada",
+            "descricao": "Alface, Tomate, Cenoura e Beterraba",
+            "preco": 9.50,
+            "imagem": ""
           }
         ]
       },
       {
-        "id": "principais",
-        "titulo": "Pratos Principais Saborosos",
+        "id": "Adicionais",
+        "titulo": "Itens Adicionais",
         "itens": [
           {
-            "id": "prn001",
-            "nome": "Filé Mignon ao Molho Madeira",
-            "descricao": "Medalhão de filé mignon grelhado (escolha o ponto), regado com molho madeira clássico e champignon. Acompanha arroz branco e batatas sautée.",
-            "preco": 65.00
+            "id": "adc001",
+            "nome": "Arroz",
+            "preco": 3.00,
+            "imagem": ""
           },
           {
-            "id": "prn002",
-            "nome": "Salmão Grelhado com Crosta de Gergelim",
-            "descricao": "Posta de salmão fresco grelhado com uma leve crosta de gergelim, servido sobre cama de legumes da estação salteados no azeite.",
-            "preco": 72.00
+            "id": "adc002",
+            "nome": "Feijão",
+            "preco": 3.00,
+            "imagem": ""
           },
           {
-              "id": "prn003",
-              "nome": "Risoto Cremoso de Cogumelos Selvagens (Vegano Opcional)",
-              "descricao": "Arroz arbóreo cremoso cozido lentamente com um mix de cogumelos frescos (paris, shimeji, shitake) e finalizado com parmesão (ou versão vegana com queijo vegetal e azeite trufado).",
-              "preco": 58.00
+            "id": "adc003",
+            "nome": "Batata Frita",
+            "preco": 4.00,
+            "imagem": ""
+          },
+          {
+            "id": "adc004",
+            "nome": "Ovo Frito",
+            "preco": 2.00,
+            "imagem": ""
+          },
+          {
+            "id": "adc005",
+            "nome": "Queijo",
+            "preco": 3.00,
+            "imagem": ""
+          },
+          {
+            "id": "adc006",
+            "nome": "Mix de Salada (Cenoura e Beterraba)",
+            "preco": 4.00,
+            "imagem": ""
           }
+        ]
+      },
+      {
+        "id": "Proteinas Adicionais",
+        "titulo": "Proteína Extra",
+        "itens": [
+            {
+                "id": "padcb001",
+                "nome": "Alcatra",
+                "preco": 12.00,
+                "imagem": ""
+            },
+            {
+                "id": "padcb002",
+                "nome": "Contra Filé",
+                "preco": 10.00,
+                "imagem": ""
+            },
+            {
+                "id": "padcb003",
+                "nome": "Filé de Frango",
+                "preco": 8.00,
+                "imagem": ""
+            },
+            {
+                "id": "padcb004",
+                "nome": "Lombo",
+                "preco": 8.50,
+                "imagem": ""
+            },
+            {
+                "id": "padcb005",
+                "nome": "Bisteca",
+                "preco": 8.50,
+                "imagem": ""
+            }
+        ]
+      },
+      {
+        "id": "Porções",
+        "titulo": "Porções", 
+        "itens": [
+             
+            {
+                "id": "por001", 
+                "nome": "Porção de Batata Frita G",  
+                "preco": 10.90, 
+                "imagem": ""
+            },
+            {
+                "id": "por002", 
+                "nome": "Porção de Batata Frita P",  
+                "preco": 9.00, 
+                "imagem": ""
+            },
+             {
+                "id": "por003", 
+                "nome": "Arroz",
+                "preco": 4.00, 
+                "imagem": ""
+            },
+            {
+               "id": "por004", 
+               "nome": "Feijão",
+               "preco": 4.00, 
+               "imagem": ""
+           }
+            
         ]
       },
       {
         "id": "bebidas",
-        "titulo": "Bebidas Refrescantes",
+        "titulo": "Bebidas",
         "itens": [
-            { "id": "beb001", "nome": "Água Mineral sem Gás (500ml)", "descricao": "", "preco": 5.00 },
-            { "id": "beb002", "nome": "Refrigerante (Lata 350ml)", "descricao": "Coca-Cola, Guaraná Antarctica, Fanta Laranja, Sprite", "preco": 7.00 }
+            {
+                "id": "beb001",
+                "nome": "Água Mineral sem Gás (500ml)",
+                "descricao": "",
+                "preco": 5.00,
+                "imagem": ""
+             },
+            {
+                "id": "beb002",
+                "nome": "Refrigerante (Lata 350ml)",
+                "descricao": "Coca-Cola, Guaraná Antarctica, Fanta Laranja, Sprite",
+                "preco": 7.00,
+                "imagem": ""
+             }
+             
           ]
       }
-      
+
     ]
   }
